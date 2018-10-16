@@ -26,6 +26,7 @@ class client{
 private:
     string src_name;
     Mat dst;
+    VideoCapture cap;
     bool if_dynamic;
 public:
     void open(string n);
@@ -33,5 +34,6 @@ public:
     void run();
     void ramdomOutput(string n);
     void dynamic();
+    void Video(string);
 };
 #endif /* client_hpp */
