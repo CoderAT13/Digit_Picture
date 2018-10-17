@@ -1,3 +1,10 @@
+## Version 1.1.1
+- 提供背景颜色区间设置及背景颜色转换与否设置
+- 提供了修改windowd及多媒体大小的宏WIDTH及HEIGHT
+
+
+
+
 ## Version 1.1.0
 - Support black blackground video input , changing to digit string video.
 - When you want video input, the first picture input can be any none-empty string.

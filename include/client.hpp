@@ -21,19 +21,42 @@
 using namespace std;
 using namespace cv;
 
-#define color 20
+#define WIDTH 100
+#define HEIGHT 30
+
+
+struct c_Range{
+    int min;
+    int max;
+    bool enable;
+    c_Range(){
+        enable = true;
+        min = 0;
+        max = 10;
+    }
+    bool operator == (int a){
+        bool k = (a <= max && a>=min);
+        if (enable)
+            return k;
+        else
+            return !k;
+    }
+};
+
 class client{
 private:
     string src_name;
     Mat dst;
     VideoCapture cap;
     bool if_dynamic;
+    c_Range color;
 public:
     void open(string n);
     void outputString(string n);
     void run();
-    void ramdomOutput(string n);
+    void randomOutput(string n);
     void dynamic();
     void Video(string);
+    void set_color_range(int, int, bool);
 };
 #endif /* client_hpp */
