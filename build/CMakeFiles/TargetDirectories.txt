@@ -1,3 +1,3 @@
-/Users/zhanghanjian/Desktop/CoderAt/Good Play/图像捕捉/digit_picture/build/CMakeFiles/rebuild_cache.dir
-/Users/zhanghanjian/Desktop/CoderAt/Good Play/图像捕捉/digit_picture/build/CMakeFiles/edit_cache.dir
-/Users/zhanghanjian/Desktop/CoderAt/Good Play/图像捕捉/digit_picture/build/CMakeFiles/a.out.dir
+/Users/zhanghanjian/Desktop/CoderAt/Good Play/color_to_string/build/CMakeFiles/rebuild_cache.dir
+/Users/zhanghanjian/Desktop/CoderAt/Good Play/color_to_string/build/CMakeFiles/edit_cache.dir
+/Users/zhanghanjian/Desktop/CoderAt/Good Play/color_to_string/build/CMakeFiles/a.out.dir

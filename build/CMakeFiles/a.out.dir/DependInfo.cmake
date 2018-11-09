@@ -4,8 +4,9 @@ set(CMAKE_DEPENDS_LANGUAGES
   )
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_CXX
-  "/Users/zhanghanjian/Desktop/CoderAt/Good Play/图像捕捉/digit_picture/src/client.cpp" "/Users/zhanghanjian/Desktop/CoderAt/Good Play/图像捕捉/digit_picture/build/CMakeFiles/a.out.dir/src/client.cpp.o"
-  "/Users/zhanghanjian/Desktop/CoderAt/Good Play/图像捕捉/digit_picture/src/main.cpp" "/Users/zhanghanjian/Desktop/CoderAt/Good Play/图像捕捉/digit_picture/build/CMakeFiles/a.out.dir/src/main.cpp.o"
+  "/Users/zhanghanjian/Desktop/CoderAt/Good Play/color_to_string/src/Video_Combine.cpp" "/Users/zhanghanjian/Desktop/CoderAt/Good Play/color_to_string/build/CMakeFiles/a.out.dir/src/Video_Combine.cpp.o"
+  "/Users/zhanghanjian/Desktop/CoderAt/Good Play/color_to_string/src/client.cpp" "/Users/zhanghanjian/Desktop/CoderAt/Good Play/color_to_string/build/CMakeFiles/a.out.dir/src/client.cpp.o"
+  "/Users/zhanghanjian/Desktop/CoderAt/Good Play/color_to_string/src/main.cpp" "/Users/zhanghanjian/Desktop/CoderAt/Good Play/color_to_string/build/CMakeFiles/a.out.dir/src/main.cpp.o"
   )
 set(CMAKE_CXX_COMPILER_ID "AppleClang")
 

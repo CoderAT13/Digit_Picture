@@ -1,4 +1,5 @@
 file(REMOVE_RECURSE
+  "CMakeFiles/a.out.dir/src/Video_Combine.cpp.o"
   "CMakeFiles/a.out.dir/src/client.cpp.o"
   "CMakeFiles/a.out.dir/src/main.cpp.o"
   "../bin/a.out.pdb"

@@ -48,10 +48,10 @@ RM = /usr/local/Cellar/cmake/3.10.2/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = "/Users/zhanghanjian/Desktop/CoderAt/Good Play/图像捕捉/digit_picture"
+CMAKE_SOURCE_DIR = "/Users/zhanghanjian/Desktop/CoderAt/Good Play/color_to_string"
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = "/Users/zhanghanjian/Desktop/CoderAt/Good Play/图像捕捉/digit_picture/build"
+CMAKE_BINARY_DIR = "/Users/zhanghanjian/Desktop/CoderAt/Good Play/color_to_string/build"
 
 #=============================================================================
 # Targets provided globally by CMake.
@@ -80,9 +80,9 @@ edit_cache/fast: edit_cache
 
 # The main all target
 all: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start "/Users/zhanghanjian/Desktop/CoderAt/Good Play/图像捕捉/digit_picture/build/CMakeFiles" "/Users/zhanghanjian/Desktop/CoderAt/Good Play/图像捕捉/digit_picture/build/CMakeFiles/progress.marks"
+	$(CMAKE_COMMAND) -E cmake_progress_start "/Users/zhanghanjian/Desktop/CoderAt/Good Play/color_to_string/build/CMakeFiles" "/Users/zhanghanjian/Desktop/CoderAt/Good Play/color_to_string/build/CMakeFiles/progress.marks"
 	$(MAKE) -f CMakeFiles/Makefile2 all
-	$(CMAKE_COMMAND) -E cmake_progress_start "/Users/zhanghanjian/Desktop/CoderAt/Good Play/图像捕捉/digit_picture/build/CMakeFiles" 0
+	$(CMAKE_COMMAND) -E cmake_progress_start "/Users/zhanghanjian/Desktop/CoderAt/Good Play/color_to_string/build/CMakeFiles" 0
 .PHONY : all
 
 # The main clean target
@@ -122,6 +122,33 @@ a.out: cmake_check_build_system
 a.out/fast:
 	$(MAKE) -f CMakeFiles/a.out.dir/build.make CMakeFiles/a.out.dir/build
 .PHONY : a.out/fast
+
+src/Video_Combine.o: src/Video_Combine.cpp.o
+
+.PHONY : src/Video_Combine.o
+
+# target to build an object file
+src/Video_Combine.cpp.o:
+	$(MAKE) -f CMakeFiles/a.out.dir/build.make CMakeFiles/a.out.dir/src/Video_Combine.cpp.o
+.PHONY : src/Video_Combine.cpp.o
+
+src/Video_Combine.i: src/Video_Combine.cpp.i
+
+.PHONY : src/Video_Combine.i
+
+# target to preprocess a source file
+src/Video_Combine.cpp.i:
+	$(MAKE) -f CMakeFiles/a.out.dir/build.make CMakeFiles/a.out.dir/src/Video_Combine.cpp.i
+.PHONY : src/Video_Combine.cpp.i
+
+src/Video_Combine.s: src/Video_Combine.cpp.s
+
+.PHONY : src/Video_Combine.s
+
+# target to generate assembly for a file
+src/Video_Combine.cpp.s:
+	$(MAKE) -f CMakeFiles/a.out.dir/build.make CMakeFiles/a.out.dir/src/Video_Combine.cpp.s
+.PHONY : src/Video_Combine.cpp.s
 
 src/client.o: src/client.cpp.o
 
@@ -186,6 +213,9 @@ help:
 	@echo "... rebuild_cache"
 	@echo "... edit_cache"
 	@echo "... a.out"
+	@echo "... src/Video_Combine.o"
+	@echo "... src/Video_Combine.i"
+	@echo "... src/Video_Combine.s"
 	@echo "... src/client.o"
 	@echo "... src/client.i"
 	@echo "... src/client.s"

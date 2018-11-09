@@ -54,10 +54,10 @@ RM = /usr/local/Cellar/cmake/3.10.2/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = "/Users/zhanghanjian/Desktop/CoderAt/Good Play/图像捕捉/digit_picture"
+CMAKE_SOURCE_DIR = "/Users/zhanghanjian/Desktop/CoderAt/Good Play/color_to_string"
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = "/Users/zhanghanjian/Desktop/CoderAt/Good Play/图像捕捉/digit_picture/build"
+CMAKE_BINARY_DIR = "/Users/zhanghanjian/Desktop/CoderAt/Good Play/color_to_string/build"
 
 #=============================================================================
 # Target rules for target CMakeFiles/a.out.dir
@@ -66,7 +66,7 @@ CMAKE_BINARY_DIR = "/Users/zhanghanjian/Desktop/CoderAt/Good Play/图像捕捉/d
 CMakeFiles/a.out.dir/all:
 	$(MAKE) -f CMakeFiles/a.out.dir/build.make CMakeFiles/a.out.dir/depend
 	$(MAKE) -f CMakeFiles/a.out.dir/build.make CMakeFiles/a.out.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir="/Users/zhanghanjian/Desktop/CoderAt/Good Play/图像捕捉/digit_picture/build/CMakeFiles" --progress-num=1,2,3 "Built target a.out"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir="/Users/zhanghanjian/Desktop/CoderAt/Good Play/color_to_string/build/CMakeFiles" --progress-num=1,2,3,4 "Built target a.out"
 .PHONY : CMakeFiles/a.out.dir/all
 
 # Include target in all.
@@ -76,9 +76,9 @@ all: CMakeFiles/a.out.dir/all
 
 # Build rule for subdir invocation for target.
 CMakeFiles/a.out.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start "/Users/zhanghanjian/Desktop/CoderAt/Good Play/图像捕捉/digit_picture/build/CMakeFiles" 3
+	$(CMAKE_COMMAND) -E cmake_progress_start "/Users/zhanghanjian/Desktop/CoderAt/Good Play/color_to_string/build/CMakeFiles" 4
 	$(MAKE) -f CMakeFiles/Makefile2 CMakeFiles/a.out.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start "/Users/zhanghanjian/Desktop/CoderAt/Good Play/图像捕捉/digit_picture/build/CMakeFiles" 0
+	$(CMAKE_COMMAND) -E cmake_progress_start "/Users/zhanghanjian/Desktop/CoderAt/Good Play/color_to_string/build/CMakeFiles" 0
 .PHONY : CMakeFiles/a.out.dir/rule
 
 # Convenience name for target.

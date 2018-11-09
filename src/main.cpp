@@ -9,7 +9,9 @@
 #include "../include/client.hpp"
 
 int main(){
+    //cout <<
     client test;
     test.run();
+    //video_combine();
     return 0;
 }

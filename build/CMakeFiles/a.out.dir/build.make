@@ -43,10 +43,10 @@ RM = /usr/local/Cellar/cmake/3.10.2/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = "/Users/zhanghanjian/Desktop/CoderAt/Good Play/图像捕捉/digit_picture"
+CMAKE_SOURCE_DIR = "/Users/zhanghanjian/Desktop/CoderAt/Good Play/color_to_string"
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = "/Users/zhanghanjian/Desktop/CoderAt/Good Play/图像捕捉/digit_picture/build"
+CMAKE_BINARY_DIR = "/Users/zhanghanjian/Desktop/CoderAt/Good Play/color_to_string/build"
 
 # Include any dependencies generated for this target.
 include CMakeFiles/a.out.dir/depend.make
@@ -57,18 +57,42 @@ include CMakeFiles/a.out.dir/progress.make
 # Include the compile flags for this target's objects.
 include CMakeFiles/a.out.dir/flags.make
 
+CMakeFiles/a.out.dir/src/Video_Combine.cpp.o: CMakeFiles/a.out.dir/flags.make
+CMakeFiles/a.out.dir/src/Video_Combine.cpp.o: ../src/Video_Combine.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="/Users/zhanghanjian/Desktop/CoderAt/Good Play/color_to_string/build/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/a.out.dir/src/Video_Combine.cpp.o"
+	/Library/Developer/CommandLineTools/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/a.out.dir/src/Video_Combine.cpp.o -c "/Users/zhanghanjian/Desktop/CoderAt/Good Play/color_to_string/src/Video_Combine.cpp"
+
+CMakeFiles/a.out.dir/src/Video_Combine.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/a.out.dir/src/Video_Combine.cpp.i"
+	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "/Users/zhanghanjian/Desktop/CoderAt/Good Play/color_to_string/src/Video_Combine.cpp" > CMakeFiles/a.out.dir/src/Video_Combine.cpp.i
+
+CMakeFiles/a.out.dir/src/Video_Combine.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/a.out.dir/src/Video_Combine.cpp.s"
+	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "/Users/zhanghanjian/Desktop/CoderAt/Good Play/color_to_string/src/Video_Combine.cpp" -o CMakeFiles/a.out.dir/src/Video_Combine.cpp.s
+
+CMakeFiles/a.out.dir/src/Video_Combine.cpp.o.requires:
+
+.PHONY : CMakeFiles/a.out.dir/src/Video_Combine.cpp.o.requires
+
+CMakeFiles/a.out.dir/src/Video_Combine.cpp.o.provides: CMakeFiles/a.out.dir/src/Video_Combine.cpp.o.requires
+	$(MAKE) -f CMakeFiles/a.out.dir/build.make CMakeFiles/a.out.dir/src/Video_Combine.cpp.o.provides.build
+.PHONY : CMakeFiles/a.out.dir/src/Video_Combine.cpp.o.provides
+
+CMakeFiles/a.out.dir/src/Video_Combine.cpp.o.provides.build: CMakeFiles/a.out.dir/src/Video_Combine.cpp.o
+
+
 CMakeFiles/a.out.dir/src/client.cpp.o: CMakeFiles/a.out.dir/flags.make
 CMakeFiles/a.out.dir/src/client.cpp.o: ../src/client.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="/Users/zhanghanjian/Desktop/CoderAt/Good Play/图像捕捉/digit_picture/build/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/a.out.dir/src/client.cpp.o"
-	/Library/Developer/CommandLineTools/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/a.out.dir/src/client.cpp.o -c "/Users/zhanghanjian/Desktop/CoderAt/Good Play/图像捕捉/digit_picture/src/client.cpp"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="/Users/zhanghanjian/Desktop/CoderAt/Good Play/color_to_string/build/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/a.out.dir/src/client.cpp.o"
+	/Library/Developer/CommandLineTools/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/a.out.dir/src/client.cpp.o -c "/Users/zhanghanjian/Desktop/CoderAt/Good Play/color_to_string/src/client.cpp"
 
 CMakeFiles/a.out.dir/src/client.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/a.out.dir/src/client.cpp.i"
-	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "/Users/zhanghanjian/Desktop/CoderAt/Good Play/图像捕捉/digit_picture/src/client.cpp" > CMakeFiles/a.out.dir/src/client.cpp.i
+	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "/Users/zhanghanjian/Desktop/CoderAt/Good Play/color_to_string/src/client.cpp" > CMakeFiles/a.out.dir/src/client.cpp.i
 
 CMakeFiles/a.out.dir/src/client.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/a.out.dir/src/client.cpp.s"
-	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "/Users/zhanghanjian/Desktop/CoderAt/Good Play/图像捕捉/digit_picture/src/client.cpp" -o CMakeFiles/a.out.dir/src/client.cpp.s
+	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "/Users/zhanghanjian/Desktop/CoderAt/Good Play/color_to_string/src/client.cpp" -o CMakeFiles/a.out.dir/src/client.cpp.s
 
 CMakeFiles/a.out.dir/src/client.cpp.o.requires:
 
@@ -83,16 +107,16 @@ CMakeFiles/a.out.dir/src/client.cpp.o.provides.build: CMakeFiles/a.out.dir/src/c
 
 CMakeFiles/a.out.dir/src/main.cpp.o: CMakeFiles/a.out.dir/flags.make
 CMakeFiles/a.out.dir/src/main.cpp.o: ../src/main.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="/Users/zhanghanjian/Desktop/CoderAt/Good Play/图像捕捉/digit_picture/build/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/a.out.dir/src/main.cpp.o"
-	/Library/Developer/CommandLineTools/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/a.out.dir/src/main.cpp.o -c "/Users/zhanghanjian/Desktop/CoderAt/Good Play/图像捕捉/digit_picture/src/main.cpp"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="/Users/zhanghanjian/Desktop/CoderAt/Good Play/color_to_string/build/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object CMakeFiles/a.out.dir/src/main.cpp.o"
+	/Library/Developer/CommandLineTools/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/a.out.dir/src/main.cpp.o -c "/Users/zhanghanjian/Desktop/CoderAt/Good Play/color_to_string/src/main.cpp"
 
 CMakeFiles/a.out.dir/src/main.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/a.out.dir/src/main.cpp.i"
-	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "/Users/zhanghanjian/Desktop/CoderAt/Good Play/图像捕捉/digit_picture/src/main.cpp" > CMakeFiles/a.out.dir/src/main.cpp.i
+	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "/Users/zhanghanjian/Desktop/CoderAt/Good Play/color_to_string/src/main.cpp" > CMakeFiles/a.out.dir/src/main.cpp.i
 
 CMakeFiles/a.out.dir/src/main.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/a.out.dir/src/main.cpp.s"
-	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "/Users/zhanghanjian/Desktop/CoderAt/Good Play/图像捕捉/digit_picture/src/main.cpp" -o CMakeFiles/a.out.dir/src/main.cpp.s
+	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "/Users/zhanghanjian/Desktop/CoderAt/Good Play/color_to_string/src/main.cpp" -o CMakeFiles/a.out.dir/src/main.cpp.s
 
 CMakeFiles/a.out.dir/src/main.cpp.o.requires:
 
@@ -107,12 +131,14 @@ CMakeFiles/a.out.dir/src/main.cpp.o.provides.build: CMakeFiles/a.out.dir/src/mai
 
 # Object files for target a.out
 a_out_OBJECTS = \
+"CMakeFiles/a.out.dir/src/Video_Combine.cpp.o" \
 "CMakeFiles/a.out.dir/src/client.cpp.o" \
 "CMakeFiles/a.out.dir/src/main.cpp.o"
 
 # External object files for target a.out
 a_out_EXTERNAL_OBJECTS =
 
+../bin/a.out: CMakeFiles/a.out.dir/src/Video_Combine.cpp.o
 ../bin/a.out: CMakeFiles/a.out.dir/src/client.cpp.o
 ../bin/a.out: CMakeFiles/a.out.dir/src/main.cpp.o
 ../bin/a.out: CMakeFiles/a.out.dir/build.make
@@ -134,7 +160,7 @@ a_out_EXTERNAL_OBJECTS =
 ../bin/a.out: /usr/local/lib/libopencv_imgproc.3.4.0.dylib
 ../bin/a.out: /usr/local/lib/libopencv_core.3.4.0.dylib
 ../bin/a.out: CMakeFiles/a.out.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir="/Users/zhanghanjian/Desktop/CoderAt/Good Play/图像捕捉/digit_picture/build/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_3) "Linking CXX executable ../bin/a.out"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir="/Users/zhanghanjian/Desktop/CoderAt/Good Play/color_to_string/build/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_4) "Linking CXX executable ../bin/a.out"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/a.out.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
@@ -142,6 +168,7 @@ CMakeFiles/a.out.dir/build: ../bin/a.out
 
 .PHONY : CMakeFiles/a.out.dir/build
 
+CMakeFiles/a.out.dir/requires: CMakeFiles/a.out.dir/src/Video_Combine.cpp.o.requires
 CMakeFiles/a.out.dir/requires: CMakeFiles/a.out.dir/src/client.cpp.o.requires
 CMakeFiles/a.out.dir/requires: CMakeFiles/a.out.dir/src/main.cpp.o.requires
 
@@ -152,6 +179,6 @@ CMakeFiles/a.out.dir/clean:
 .PHONY : CMakeFiles/a.out.dir/clean
 
 CMakeFiles/a.out.dir/depend:
-	cd "/Users/zhanghanjian/Desktop/CoderAt/Good Play/图像捕捉/digit_picture/build" && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" "/Users/zhanghanjian/Desktop/CoderAt/Good Play/图像捕捉/digit_picture" "/Users/zhanghanjian/Desktop/CoderAt/Good Play/图像捕捉/digit_picture" "/Users/zhanghanjian/Desktop/CoderAt/Good Play/图像捕捉/digit_picture/build" "/Users/zhanghanjian/Desktop/CoderAt/Good Play/图像捕捉/digit_picture/build" "/Users/zhanghanjian/Desktop/CoderAt/Good Play/图像捕捉/digit_picture/build/CMakeFiles/a.out.dir/DependInfo.cmake" --color=$(COLOR)
+	cd "/Users/zhanghanjian/Desktop/CoderAt/Good Play/color_to_string/build" && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" "/Users/zhanghanjian/Desktop/CoderAt/Good Play/color_to_string" "/Users/zhanghanjian/Desktop/CoderAt/Good Play/color_to_string" "/Users/zhanghanjian/Desktop/CoderAt/Good Play/color_to_string/build" "/Users/zhanghanjian/Desktop/CoderAt/Good Play/color_to_string/build" "/Users/zhanghanjian/Desktop/CoderAt/Good Play/color_to_string/build/CMakeFiles/a.out.dir/DependInfo.cmake" --color=$(COLOR)
 .PHONY : CMakeFiles/a.out.dir/depend
 

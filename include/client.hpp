@@ -21,8 +21,8 @@
 using namespace std;
 using namespace cv;
 
-#define WIDTH 100
-#define HEIGHT 30
+#define CHAR_W 6
+#define CHAR_H 11
 
 
 struct c_Range{
@@ -47,16 +47,25 @@ class client{
 private:
     string src_name;
     Mat dst;
+    int WIDTH;
+    int HEIGHT;
     VideoCapture cap;
     bool if_dynamic;
     c_Range color;
+    
 public:
     void open(string n);
+    void write_to_text();
     void outputString(string n);
     void run();
     void randomOutput(string n);
     void dynamic();
-    void Video(string);
+    void Video();
     void set_color_range(int, int, bool);
+    void set_WIDTH_HEIGHT(int, int);
+    void color_to_gray(bool isWrite=true);
 };
+
+void video_combine();
+void draw_char(Mat& src, int row, int col, int n);
 #endif /* client_hpp */

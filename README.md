@@ -1,26 +1,19 @@
-## Version 1.1.1
-- 提供背景颜色区间设置及背景颜色转换与否设置
-- 提供了修改windowd及多媒体大小的宏WIDTH及HEIGHT
+# Color_Media Transform to String_Media
+- Version 2.0.0
+- Author CoderAt
+- University/School SYSU/SDCS
+- Date: 2018-11-09
+## Abstract
+- This is a system for Color_Media to String_Media, which I call CMSM
+- The output is in the Output dir
+- All the source color media you can put anyway but you must input the index to it.  Like I put 1.png in ./data, then I must input ./data/1.png
+- The Compile Method is follow:
+0. cd build     ;open build_dir
+1. cmake ..
+2. make
+3. cd ..
+4. ./bin/a.out  ;open the program
 
+## Warning
+Some  photos token by phone may be illegal format, and can't recognize.
 
-
-
-## Version 1.1.0
-- Support black blackground video input , changing to digit string video.
-- When you want video input, the first picture input can be any none-empty string.
-
-
-
-
-
-## Digit Picture
-- Author: Coder.@
-- Revised: Coder.@
-- Date: 2018-10-15
-- Version: 1.1.0
-- Abstract: Program for colorful picture with black background to transform to digit picture. Source Picture's size can't larger than (2000* 2000). Also provide dynamic change. The compile method is follows:
-1. cd build
-2. cmake ..
-3. make
-4. cd ..
-5. ./bin/a.out
